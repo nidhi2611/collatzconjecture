@@ -7,5 +7,7 @@ public class Mainclass {
         System.out.println("enter a number");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        Excecutionclass obj = new Excecutionclass(n);
+        System.out.println(obj.getCollatzString(n));
     }
 }
